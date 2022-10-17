@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #131419;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  .container{
+    text-align: center;
+    color:cyan;
+  }
+  
+  .sub-container{
+    height: 160px;
+    width: 600px;
+    background: #131419;
+    text-align:center;
+    box-shadow:-3px -3px 8px rgba(255,255,255,0.5), 3px 2px 4px rgba(0,0,0,0.5);
+    padding: 0 25px;
+    border-radius:5px;
+  
+  }
+  
+  .time{
+    text-align: center;
+    font-size: 70px;
+  }
+  
+  .date{
+    font-size: 30px;
+    padding-top: 15px;
+  }
